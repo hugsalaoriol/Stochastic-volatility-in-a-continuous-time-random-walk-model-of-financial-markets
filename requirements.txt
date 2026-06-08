@@ -1,0 +1,18 @@
+# Core numerics (scipy covers .special/.stats/.optimize/.integrate/.fft/.signal)
+numpy==2.3.5
+scipy==1.16.3
+ 
+# Data handling and retrieval
+pandas==3.0.1
+yfinance==1.2.0
+ 
+# Statistical models
+statsmodels==0.14.6        # statsmodels.api as sm
+arch==8.0.0               # ARCH / GARCH  (from arch import arch_model)
+ 
+# High-precision math — Talbot inverse Laplace transform
+mpmath==1.3.0
+ 
+# Plotting (covers pyplot, gridspec, and mpl_toolkits.mplot3d)
+matplotlib==3.10.8
+       
