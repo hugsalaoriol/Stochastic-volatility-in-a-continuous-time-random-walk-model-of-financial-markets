@@ -34,7 +34,7 @@ value at the previous one. Coupling the Montroll–Weiss framework to SV in this
 Estimates the model parameters by OLS from empirical series (Dow Jones Industrial Average index, `^DJI`, 2024-2025), and computes the volatility transition pdf for the OU, expOU, Heston, ARCH and GARCH processes. This pdf are plotted considering previous step volatility and are compared to the actual volatility for that step from the data (this is repeated every 10 jump steps). Beyond this graphical comparison, the agreement is quantified with RMSE and log-likelihood estimators, assessing the viability of each kernel (positivity, normalization, relaxation, etc.) before being fed into the CTRW workframe.
 
  
-Produces: Fig. 2, 6-10.
+Produces: Fig. 5-10.
 
 ### Code 2: SV_CTRW.ipynb
 
@@ -46,7 +46,7 @@ The **second part** reuses the same machinery to generate the figures presented 
  
 Parameters can be computed as in Code 1 (estimated from the `^DJI` series) or set to values drawn from the literature (see the references cited inline in the code).
  
-Produces: Fig. 3-5, 11, 12.
+Produces: Fig. 2-4, 11, 12.
 
 ---
 ## Requirements
